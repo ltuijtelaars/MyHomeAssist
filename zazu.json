@@ -1,14 +1,15 @@
 {
-  "type": "micro_wake_word",
+  "type": "micro",
   "wake_word": "zazu",
   "author": "Luuk",
   "trained_languages": ["en"],
   "version": 2,
-  "model": "https://raw.githubusercontent.com/ltuijtelaars/MyHomeAssist/main/zazu.tflite",
+  "model": "zazu.tflite",
   "micro": {
     "probability_cutoff": 0.85,
     "sliding_window_size": 5,
     "feature_step_size": 10,
-    "tensor_arena_size": 22860
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2024.7"
   }
 }
