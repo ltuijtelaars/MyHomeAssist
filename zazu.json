@@ -4,8 +4,8 @@
   "author": "Luuk",
   "trained_languages": ["en"],
   "version": 2,
+  "model": "https://raw.githubusercontent.com/ltuijtelaars/MyHomeAssist/main/zazu.tflite",
   "micro": {
-    "model": "https://raw.githubusercontent.com/ltuijtelaars/MyHomeAssist/main/zazu.tflite",
     "probability_cutoff": 0.85,
     "sliding_window_size": 5,
     "feature_step_size": 10,
